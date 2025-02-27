@@ -7,13 +7,17 @@ public class Main {
         
         Scanner in = new Scanner(System.in);
 
-        int n = in.nextInt();
-        int m = in.nextInt();
-        int k = in.nextInt();
+        String line = in.nextLine();
+
+        String[] parts = line.split(" ");
+
+        int n = Integer.parseInt(parts[0]);
+        int m = Integer.parseInt(parts[1]);
+        int k = Integer.parseInt(parts[2]);
 
         System.out.println(n * m * k * 2);
-
+        
         in.close();
-
+        
     }
 }
