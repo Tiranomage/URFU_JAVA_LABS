@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tasks>
+    <task>
+        <id>1</id>
+        <title>Создать проект</title>
+        <description>Разработать MVP-версию приложения</description>
+        <deadline>2023-10-20</deadline>
+        <status>В процессе</status>
+    </task>
+    <task>
+        <id>2</id>
+        <title>Тестирование</title>
+        <description>Проверить функциональность модулей</description>
+        <deadline>2023-10-25</deadline>
+        <status>Не начата</status>
+    </task>
+</tasks>
